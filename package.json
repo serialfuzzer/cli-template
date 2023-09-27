@@ -1,0 +1,25 @@
+{
+  "name": "{name}",
+  "version": "1.0.0",
+  "description": "{description}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serialfuzzer/unveil.git"
+  },
+  "author": "serialfuzzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serialfuzzer/unveil/issues"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "{name}": "index.js"
+  },
+  "homepage": "https://github.com/serialfuzzer/unveil#readme",
+  "dependencies": {
+  }
+}
