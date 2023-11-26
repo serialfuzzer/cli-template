@@ -8,7 +8,9 @@ Helper.prototype = {
         if(filePath != ""){
             const data = fs.readFileSync(filePath, { encoding: 'utf8', flag: 'r' });
             data.split("\n").map(target=>{
-                targets.push(target.trim());
+                if (target != ""){
+                    targets.push(target.trim());
+                }
             })
         }
         return targets;
